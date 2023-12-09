@@ -41,15 +41,12 @@
   </script>
   
   <style scoped>
-  .dark-mode {
-  background-color: #1a1a1a;
-  color: #ffffff;
-}
   .todolist {
   display: flex;
   line-height: 30px;
   flex-direction: column !important;
   list-style: none;
+  font-size: 20px;
   }
   
   .input_button {
@@ -57,7 +54,18 @@
   gap: 10px;
   justify-content: center;
   }
-  
+  input{
+    font-size: 20px;
+    outline: none;
+  }
+  button{
+    font-size: 20px;
+    background-color: rgba(3, 3, 20, 0.714);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
   .fade-enter-active, .fade-leave-active {
   transition: opacity 0.5s;
   }
